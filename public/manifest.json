@@ -1,5 +1,6 @@
 {
   "short_name": "React App",
+  "start": "react-scripts --openssl-legacy-provider start",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -8,6 +9,7 @@
       "type": "image/png"
     }
   ],
+  "start": "react-scripts --openssl-legacy-provider start",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

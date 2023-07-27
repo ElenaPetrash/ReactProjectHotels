@@ -5,7 +5,7 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-  margin-left: 10px;
+  margin-left: 50px;
   margin-bottom: 5px;
 }
 
@@ -13,12 +13,14 @@
 
 .App-header {
   background-color: #222;
-  height: 50px;
+  height: 100px;
   padding: 20px;
+  padding-left: 400px;
   color: white;
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif,fantasy;
+  font-style: italic;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -34,6 +36,10 @@
 .cards {
   display: flex;
   justify-content: space-evenly;
+}
+
+.textCards{
+  background-color: rgb(139, 139, 243);
 }
 
 @keyframes App-logo-spin {
